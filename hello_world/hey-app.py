@@ -22,7 +22,7 @@ def lambda_handler(event, context):
     return {
         "statusCode": 200,
         "body": json.dumps({
-            "message": "Response from hi-app function",
+            "message": "Response from hi-app function!",
             # "location": ip.text.replace("\n", "")
         }),
     }
